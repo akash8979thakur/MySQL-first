@@ -1,0 +1,10 @@
+some SQL command Example
+Creat Databases Collage;
+Show Databases;
+use collage;    ||   OutPut = Database Changed
+CREAT TABLE Students (FirstName VARCHAR(30), LastName VARCHAR(40) , Gender VARCHAR(6) , NetWorth INTEGER);
+  SHOW TABLES;  ||   OutPut = Students
+INSERT INTO Student VALUES ("Akash", "Kumar" ,"Male",400$), ("Pankaj", "Kumar" ,"Male",600$),("Gulshan", "Kumar" ,"Male",400$);
+SELECT * FROM Students;
+Describe Students;
+Select * From Students Limit 4;
